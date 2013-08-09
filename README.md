@@ -1,7 +1,7 @@
 DNAOrderApp
 ===========
 
-A web application that aims to improve the interface for ordering DNA sequences from our collaborators. The current system generates an excel sheet (manifest) that is sent to our collaborators to be filled out as they fill the plates up with samples of the requested DNA sequences. The order that the DNA sequences are listed on the excel sheet is not very accommodating to the lab technician's workflow -  we're hoping that the GUI that we provide could make it easier to fill out the order form and reduce the error rate of mislabelling the wells. 
+A web application that aims to improve the interface for ordering DNA sequences from our collaborators in hopes to reduce the error rate of mislabelling wells.
 
 Installation
 ============
@@ -54,6 +54,9 @@ Other JQuery
 https://code.google.com/p/jquery-watermark/
 https://github.com/tcrosen/twitter-bootstrap-typeahead
 
+Side Note:
+================
+Currently using Django v1.4. Note that the interface for handling database transactions is different in the latest v1.6.
 
 License
 =======
